@@ -1,0 +1,6 @@
+import Link from "next/link";
+import { ArrowUpRight } from "lucide-react";
+
+export default function Noticias() {
+  return <section className="container section"><div className="eyebrow">EXPLORAR / 01</div><h1 className="section-title">Notícias<span>.</span></h1><p className="page-intro">Histórias, tendências e novidades que movimentam a música eletrônica.</p><div className="empty-state"><span>01 — REDAÇÃO</span><h2>Novas histórias estão chegando.</h2><p>Esta área receberá matérias, entrevistas e notícias da cena eletrônica.</p><Link href="/" className="text-link">VOLTAR AO INÍCIO <ArrowUpRight size={16}/></Link></div></section>;
+}
