@@ -1,0 +1,6 @@
+import Link from "next/link";
+import { ArrowUpRight } from "lucide-react";
+
+export default function DJs() {
+  return <section className="container section"><div className="eyebrow">EXPLORAR / 03</div><h1 className="section-title">DJs<span>.</span></h1><p className="page-intro">Conheça artistas, trajetórias, sonoridades e sets que fazem a pista pulsar.</p><div className="empty-state"><span>03 — ARTISTS</span><h2>Talento por trás das frequências.</h2><p>Perfis, entrevistas e mixes de artistas nacionais e internacionais em breve.</p><Link href="/" className="text-link">VOLTAR AO INÍCIO <ArrowUpRight size={16}/></Link></div></section>;
+}
